@@ -61,7 +61,6 @@ ax[1].set_title('Distribución de hombres y mujeres')
 # Desplegamos el gráfico
 st.pyplot(fig)
 if st.button('Muestra de Datos Cargados'):
-    .
     st.write("""
     ## Muestra de datos cargados
     """)
