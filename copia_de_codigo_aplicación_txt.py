@@ -15,7 +15,8 @@ st.title('Mi primerra aplicación de Streamlit')
 st.markdown('# Datos del mes de Noviembre :money_with_wings:')
 st.markdown('---')
 df = pd.read_csv("gym_members_exercise_tracking.csv")
-
+logo = 'logo.png'
+st.logo(logo,size = 'large')
 # Select specific numeric columns for the area chart
 numeric_columns = df.select_dtypes(include=['number']).columns
 # If you have specific columns in mind, you can list them directly:
