@@ -7,6 +7,8 @@ Original file is located at
     https://colab.research.google.com/drive/17CWYMnUIfa96W4iNrfFIFKII62ZIjiYB
 """
 import streamlit as st
+import matplotlib.pyplot as plt
+import pandas as pd
 st.title('Mi primerra aplicación de Streamlit')
 
 st.header('!Hola, Streamlit!')
