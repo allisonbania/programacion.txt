@@ -9,7 +9,7 @@ Original file is located at
 import streamlit as st
 import matplotlib.pyplot as plt
 import pandas as pd
-st.title('Mi primerra aplicación de Streamlit')
+st.title('Datos sobre los miembros inscritos al Gym')
 
 
 st.markdown('# Datos del mes de Noviembre :money_with_wings:')
