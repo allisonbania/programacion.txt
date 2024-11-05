@@ -37,7 +37,7 @@ st.sidebar.write('Escribiste:', input)
 
 st.markdown('# Datos del mes de Noviembre :money_with_wings:')
 st.markdown('---')
-df = pd.read_csv("/content/drive/MyDrive/prograaa/gym_members_exercise_tracking.csv")
+df = pd.read_csv("gym_members_exercise_tracking.csv")
 
 # Select specific numeric columns for the area chart
 numeric_columns = df.select_dtypes(include=['number']).columns
